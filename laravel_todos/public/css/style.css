@@ -1,0 +1,92 @@
+body{
+	margin: 0; padding: 0; font-size: 14px;
+}
+#todos{
+	font-size: 4em;
+	color: #cfd0cf;
+	text-align: center;
+}
+#boder {
+  	background-color: #94837c;
+  	height: 2em;
+}
+#angle{
+	width: 20%; 
+	float: left;
+	text-align: center; 
+	font-size: 2em;
+	background-color: white;
+	height: 50px;
+    border-right-style: double;
+	border-color: pink;
+	padding: 8px;
+	color: #cfd0cf;
+}
+#inputtext{
+	font-size: 2em;
+	font-style: italic;
+	padding-left: 10px;
+	width: 80%;
+	border: none;
+}
+#list{
+	margin: 0;
+	padding: 0;
+	clear: both;
+	background-color: white;
+}
+#list li{
+	list-style-type: none;
+	border-top-style: dotted;
+	height: 100%;
+	border-top-color: #0003;
+	font-size: 2em;
+}
+#list li label{
+	padding-left: 10px;
+	margin-bottom: 0px
+}
+.correct{
+	width: 20%; 
+	float: left;
+	text-align: center; 
+	border-right-style: double;
+	border-color: pink;
+	height: 50px;
+	padding: 8px;
+	color: #cfd0cf;
+}
+.closes{
+	float: right; 
+	width: 10%;
+	height: 50px;
+	text-align: center;
+	padding: 7px;
+	color: #cfd0cf;
+	cursor: pointer;
+}
+.closes:hover{
+	background-color: #c94114;
+	color: white;
+    position: relative;
+    top: -2px;
+}
+.checked{
+	background-color: #94837c;
+	color: black;
+	font-weight: bold;
+	text-decoration: line-through;
+	font-style: italic;
+}
+.i1_checked{
+	color: black;
+}
+.i2_checked{
+	color: black;
+}
+#footer{
+	text-align: center;
+}
+.inp {
+ 	width: 70%;
+}
